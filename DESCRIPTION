@@ -9,8 +9,7 @@ Encoding: UTF-8
 LazyData: true
 Depends: 
     forecast, 
-    jsonlite,
-    Metrics
+    jsonlite
 RoxygenNote: 7.1.1
 
     
