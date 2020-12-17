@@ -8,6 +8,7 @@
 #' @return data.frame object of daily exchange rate  historic stock price
 #'
 #' @examples getexchrate_av('GBP','USD')
+#' @export
 
 getexchrate_av<-function(to_curr,from_curr='USD'){
   api_key_AV <- '1D0CULUFYK3KIO0M'

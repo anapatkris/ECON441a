@@ -7,6 +7,7 @@
 #' @return data.frame object of historic daily stock price
 #'
 #' @examples getstockprice_av('AAPL')
+#' @export
 
 getstockprice_av<-function(symbol){
   api_key_AV <- '1D0CULUFYK3KIO0M'

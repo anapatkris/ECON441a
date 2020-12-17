@@ -11,10 +11,10 @@ findstock_av(text)
 }
 \value{
 data frame object of all matching stock names and their symbols
-
-
-#' @examples findstock_av('mic')
 }
 \description{
 API wrapper to auto-complete stock names and search for its symbol
+}
+\examples{
+findstock_av('mic')
 }

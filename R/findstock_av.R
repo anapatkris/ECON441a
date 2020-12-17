@@ -6,8 +6,8 @@
 #'
 #' @return data frame object of all matching stock names and their symbols
 #'
-#'
-#' #' @examples findstock_av('mic')
+#' @examples findstock_av('mic')
+#' @export
 
 findstock_av<-function(text){
   api_key_AV <- '1D0CULUFYK3KIO0M'
