@@ -1,4 +1,3 @@
-
 #' All currency codes
 #'
 #' @description A data frame including all currency names and codes. Used as reference by 'findcurr' function.
@@ -16,4 +15,5 @@
 #' @examples
 #'  currcodes
 #'
+
 "currcodes"

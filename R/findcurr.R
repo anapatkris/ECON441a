@@ -8,6 +8,7 @@
 #'
 #' @examples findcurr('united')
 #' @export
+
 findcurr<-function(text){
   a<-data.frame(name=grep(text,currcodes$Entity,value=TRUE,ignore.case = TRUE))
   result<-merge(a,currcodes,by.x='name',by.y='Entity',all.x=TRUE)[,c(1,2,3,6)]
