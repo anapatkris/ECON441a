@@ -15,6 +15,5 @@
 #'  }
 #' @examples
 #'  currcodes
-#' @export
 #'
 "currcodes"

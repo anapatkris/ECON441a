@@ -8,6 +8,5 @@
 #' @format A time series start from 1950
 #'
 #' @examples plot(ex_ts)
-#' @export
 
 "ex_ts"

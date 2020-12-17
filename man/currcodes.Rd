@@ -26,5 +26,6 @@ A data frame including all currency names and codes. Used as reference by 'findc
 }
 \examples{
  currcodes
+
 }
 \keyword{datasets}

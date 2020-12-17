@@ -7,6 +7,5 @@
 #'
 #' @usage ex_model
 #' @examples summary(ex_model)
-#' @export
 
 "ex_model"
