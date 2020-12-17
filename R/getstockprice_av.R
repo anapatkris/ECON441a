@@ -1,10 +1,10 @@
 #' Get Stock Price Function (AV)
 #'
-#' @param symbol (character) currency code of the buying currency
+#' @description An API wrapper to extract historical daily price of a stock symbol from www.alphavantage.co
 #'
-#' @description API wrapper to extract daily stock price data from www.alphavantage.co
+#' @param symbol (character) Stock symbol in the stock market
 #'
-#' @return data.frame object of historic daily stock price
+#' @return Return data frame object with historical daily stock prices
 #'
 #' @examples getstockprice_av('AAPL')
 #' @export

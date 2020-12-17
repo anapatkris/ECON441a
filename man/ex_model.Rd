@@ -14,6 +14,9 @@ Arima(ex_ts,order=c(2,0,2))
 ex_model
 }
 \description{
-Example AR(2) MA(2) model can be used with backtesting functions
+An example AR(2) MA(2) model which can be used with backtesting functions
+}
+\examples{
+summary(ex_model)
 }
 \keyword{datasets}

@@ -1,12 +1,13 @@
 #' Get Stock Price Function (MS)
 #'
-#' @description an API wrapper pulling daily historic stock price data from marketstack.com
-#' @param symbol (character) stock symbol in the stock market
+#' @description An API wrapper to extract historical daily price of a stock symbol from marketstack.com
 #'
-#' @return data.frame object of stock daily historic stock price
+#' @param symbol (character) Stock symbol in the stock market
+#'
+#' @return Return data frame object with historical daily stock prices
+#'
+#' @examples getstockprice_ms('AAPL')
 #' @export
-#'
-#' @examples getstockprice_ms('APPL')
 
 getstockprice_ms<-function(symbol){
   api_key_MS <- '62ef28a57f2f1270624bcb96b59e592f'

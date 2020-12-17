@@ -7,10 +7,10 @@
 findstock_av(text)
 }
 \arguments{
-\item{text}{text/string to search in stock name}
+\item{text}{Text/string to search in stock name}
 }
 \value{
-data frame object of all matching stock names and their symbols
+Return a data frame object including all matching stocks' names and their symbols
 }
 \description{
 API wrapper to auto-complete stock names and search for its symbol

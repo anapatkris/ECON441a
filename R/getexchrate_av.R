@@ -2,10 +2,10 @@
 #'
 #' @description API wrapper to extract exchange rate data from www.alphavantage.co
 #'
-#' @param to_curr (character) currency code of the buying currency
-#' @param from_curr (character) currency code of the selling currency
+#' @param to_curr (character) Currency code of the buying currency
+#' @param from_curr (character) Currency code of the selling currency
 #'
-#' @return data.frame object of daily exchange rate  historic stock price
+#' @return Return a data frame object of historical daily exchange rates
 #'
 #' @examples getexchrate_av('GBP','USD')
 #' @export

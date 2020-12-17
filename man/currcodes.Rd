@@ -22,10 +22,9 @@ A data frame with columns:
 currcodes
 }
 \description{
-Data frame of all currency names and codes.
+A data frame including all currency names and codes. Used as reference by 'findcurr' function.
 }
 \examples{
  currcodes
-
 }
 \keyword{datasets}

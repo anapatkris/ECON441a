@@ -7,13 +7,13 @@
 findcurr(text)
 }
 \arguments{
-\item{text}{a character vector of text to search for in the country names}
+\item{text}{A character vector of text to search for in the country names}
 }
 \value{
-a data frame of matched country names with their respective currency codes
+A data frame of matched country names with their respective currency codes
 }
 \description{
-a function to search for a string in the country names and return with their respective currency names and currency codes
+A function used to search for a string in the country names and return with their respective currency names and currency codes
 }
 \examples{
 findcurr('united')

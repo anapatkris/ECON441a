@@ -7,13 +7,13 @@
 getstockprice_av(symbol)
 }
 \arguments{
-\item{symbol}{(character) currency code of the buying currency}
+\item{symbol}{(character) Stock symbol in the stock market}
 }
 \value{
-data.frame object of historic daily stock price
+Return data frame object with historical daily stock prices
 }
 \description{
-API wrapper to extract daily stock price data from www.alphavantage.co
+An API wrapper to extract historical daily price of a stock symbol from www.alphavantage.co
 }
 \examples{
 getstockprice_av('AAPL')

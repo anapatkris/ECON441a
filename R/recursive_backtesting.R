@@ -1,5 +1,5 @@
 #' Recursive BackTesting Function
-#' @description a backtesting function to test ARIMA model on a training time series
+#' @description A backtesting function used for testing ARIMA model on a training time series
 #'
 #' @param model ARIMA model
 #' @param ts time series data

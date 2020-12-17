@@ -19,7 +19,7 @@ data as actual data
  mape as mean absolute percentage error
 }
 \description{
-a backtesting function to test ARIMA model on a training time series
+A backtesting function to test ARIMA model on a training time series
 }
 \examples{
  window_bactesting(ex_model,ex_ts,k=100)

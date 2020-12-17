@@ -7,14 +7,14 @@
 getstockprice_ms(symbol)
 }
 \arguments{
-\item{symbol}{(character) stock symbol in the stock market}
+\item{symbol}{(character) Stock symbol in the stock market}
 }
 \value{
-data.frame object of stock daily historic stock price
+Return data frame object with historical daily stock prices
 }
 \description{
-an API wrapper pulling daily historic stock price data from marketstack.com
+An API wrapper to extract historical daily price of a stock symbol from marketstack.com
 }
 \examples{
-getstockprice_ms('APPL')
+getstockprice_ms('AAPL')
 }

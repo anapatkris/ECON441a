@@ -7,12 +7,12 @@
 getexchrate_av(to_curr, from_curr = "USD")
 }
 \arguments{
-\item{to_curr}{(character) currency code of the buying currency}
+\item{to_curr}{(character) Currency code of the buying currency}
 
-\item{from_curr}{(character) currency code of the selling currency}
+\item{from_curr}{(character) Currency code of the selling currency}
 }
 \value{
-data.frame object of daily exchange rate  historic stock price
+Return a data frame object of historical daily exchange rates
 }
 \description{
 API wrapper to extract exchange rate data from www.alphavantage.co

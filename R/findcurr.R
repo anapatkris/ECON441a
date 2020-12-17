@@ -1,10 +1,10 @@
 #' Find Currency Function
 #'
-#' @description a function to search for a string in the country names and return with their respective currency names and currency codes
+#' @description A function used to search for a string in the country names and return with their respective currency names and currency codes
 #'
-#' @param text a character vector of text to search for in the country names
+#' @param text A character vector of text to search for in the country names
 #'
-#' @return a data frame of matched country names with their respective currency codes
+#' @return A data frame of matched country names with their respective currency codes
 #'
 #' @examples findcurr('united')
 #' @export

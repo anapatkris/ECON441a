@@ -1,10 +1,10 @@
 #' Find Stock Symbol Function
 #'
-#' @param text text/string to search in stock name
+#' @param text Text/string to search in stock name
 #'
 #' @description API wrapper to auto-complete stock names and search for its symbol
 #'
-#' @return data frame object of all matching stock names and their symbols
+#' @return Return a data frame object including all matching stocks' names and their symbols
 #'
 #' @examples findstock_av('mic')
 #' @export
